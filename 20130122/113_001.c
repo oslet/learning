@@ -16,8 +16,7 @@ int main(){
     while((c=getchar()) != EOF){
           if (('a'<=c && c<='z') || ('A'<=c && c<='Z')){
             wlen++;
-
-          }else {
+        }else {
             arr[wlen-1]++;
             wlen = 0;
         }
